@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Royals Kingdom</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0d0d0d;
+      color: #ffffff;
+    }
+    header {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #00ffff;
+    }
+    header h1 {
+      color: #00ffff;
+      text-shadow: 0 0 10px #00ffff;
+      font-size: 3rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #111;
+      flex-wrap: wrap;
+    }
+    nav a {
+      padding: 15px 25px;
+      color: #00ffff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+      text-shadow: 0 0 10px #00ffff;
+    }
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+    .contact-form {
+      max-width: 500px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background-color: #00ffff;
+      border: none;
+      padding: 10px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .contact-form button:hover {
+      background-color: #00cccc;
+    }
+    footer {
+      background: #111;
+      padding: 20px;
+      text-align: center;
+      border-top: 1px solid #00ffff;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #00ffff;
+      font-size: 1.5rem;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .social-icons a:hover {
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Royals Kingdom</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#another">Another</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Home / मुख्य पृष्ठ</h2>
+    <p>Welcome to <strong>Royals Kingdom</strong> — your personal digital kingdom. <br> आपका स्वागत है इस डिजिटल रॉयल्स दुनिया में।</p>
+  </section>
+
+  <section id="about">
+    <h2>About / हमारे बारे में</h2>
+    <p>This is a personal website to showcase your work, thoughts, or personality. <br> यह वेबसाइट आपकी सोच, रचनाएं और पहचान दिखाने का माध्यम है।</p>
+  </section>
+
+  <section id="another">
+    <h2>Another / अन्य जानकारी</h2>
+    <p>More sections and features coming soon! <br> और भी जानकारियां जल्द ही जोड़ी जाएंगी।</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact / संपर्क करें</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name / आपका नाम" required>
+      <input type="email" placeholder="Your Email / ईमेल" required>
+      <textarea rows="4" placeholder="Your Message / आपका संदेश" required></textarea>
+      <button type="submit">Send / भेजें</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="social-icons">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">Twitter</a>
+    </div>
+    <p>&copy; 2025 Royals Kingdom. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
